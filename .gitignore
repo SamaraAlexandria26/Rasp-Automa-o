@@ -1,0 +1,34 @@
+# Pastas de dependências e builds (se houver no futuro)
+node_modules/
+dist/
+build/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Pastas e arquivos do editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backup Antigo (Recomendado não versionar se for muito pesado ou desnecessário)
+backup_site_antigo/
